@@ -1,0 +1,10 @@
+Querying data information like kind, type, etc
+    . Use reflect.TypeOf
+Extracting values from data
+    . Use reflect.ValueOf
+
+Looping Through a Slice type
+    . Using the length of the Slice, use .Len()
+
+Looping Through a Struct type
+    . Using the length of the fields, use .NumField    
