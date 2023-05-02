@@ -2,6 +2,7 @@ Querying data information like kind, type, Field Names
     . Use reflect.TypeOf
 Extracting values from data, Everything else except Field Names
     . Use reflect.ValueOf
+    . Access Field Name followed by type...if a string .string(), int() etc
 
 Looping Through a Slice type
     . Using the length of the Slice, use .Len()
