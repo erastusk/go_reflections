@@ -7,11 +7,13 @@ Extracting values from data, Everything else except Field Names
 Looping Through a Slice type
     . Using the length of the Slice, use .Len()
     . Extract Values use .interface within Index + Field. outerloop(field(x)).InnerLoop(Index(a)).Field(z).interface
-
+Looping Through a map eg map[string]interface{}
+    . Use .Mapkeys()
+    . .MapIndex(key)
 Looping Through a Struct type
     . Using the length of the fields, use .NumField ---> If looping through a Struct data structure, within the main.loop
     . Inner Struct Looping ---> Outer loop Field index . Type . NumField inner loop index
     . Extracting Values use .interface within field. outerloop(field(x)).InnerLoop(field(a)).interface   
 
-Values Extraction
-    . Use .string when you need the literal value
+Values Extraction - Interface
+    . Use .Interface() when you need the literal value
